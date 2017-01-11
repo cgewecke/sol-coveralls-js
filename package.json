@@ -1,0 +1,25 @@
+{
+  "name": "sol-coveralls-js",
+  "version": "1.0.0",
+  "description": "Instanbul coverage for JS code identical to sol-coveralls. For comparisons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgewecke/sol-coveralls-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgewecke/sol-coveralls-js/issues"
+  },
+  "homepage": "https://github.com/cgewecke/sol-coveralls-js#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}

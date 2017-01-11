@@ -9,10 +9,12 @@ module.exports.ifs = function ifs(){
     y+=1;
   }
 
+
   // Takes else branch (else sameline)
   if (x==1) y+=1;
   else y+=1;
 
+  
   // Takes else branch (else multiline)
   if (x==1) y+=1;
   else 
@@ -52,12 +54,17 @@ module.exports.fors = function fors(){
   var x = 0;
   var y = 0;
 
+  
   // Loops 10X (brackets, sameline)
   for(x = 0; x < 10; x++){ y+=1; }
+  
+
   // Loops 10X (brackets multiline)
   for(x = 0; x < 10; x++){
     y+=1;
   }
+  
+
   // Loops 10X (no-brackets, same line);
   for(x = 0; x < 10; x++) y+=1;
   
